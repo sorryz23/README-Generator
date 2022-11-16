@@ -1,8 +1,9 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown')
-inquirer
+const generateMarkdown = require('./utils/generateMarkdown.js');
+
+    inquirer
     .prompt([
         {
             type: "input",
@@ -16,7 +17,7 @@ inquirer
         },
         {
             type: "input",
-            message: "What promble does it solve?",
+            message: "What problem does it solve?",
             name: "problem"
         },
         {
