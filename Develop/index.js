@@ -56,6 +56,11 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
             name: "github"
         },
         {
+            type: "input",
+            message: "Add your email so users can contact",
+            name: "email"
+        },
+        {
             type: "list",
             message: "Choose a license for the application",
             name: "license",
